@@ -1,4 +1,4 @@
-
+/*
 @media (resolution: 250dpi){
   .header li {
     float: center;
@@ -18,8 +18,9 @@
     display: none;
   }
 }
-
+*/
 /* Exact resolution */
+/*
 @media (resolution: 150dpi) {
   .header li {
     float: center;
@@ -39,19 +40,12 @@
     display: none;
   }
 }
+*/
 
 /* Maximum resolution */
 @media (min-width:50rem) and (pointer: fine){
-  .header li {
-    float: left;
-  }
-  .header li a {
-    padding: 20px 30px;
-  }
   .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
+    display: inline-flex;
   }
   .header .menu-icon {
     display: none;
