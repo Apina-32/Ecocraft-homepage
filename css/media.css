@@ -53,6 +53,23 @@
     justify-content: flex-end;
     z-index: 8;
   }
+
+  body{
+    zoom: 1;
+  }
+
+  .logo img{
+    width: 7em;
+  }
+
+  .container #home{
+    height: 70em;
+  }
+
+  section{
+    height: 88vh;
+  }
+
   .header .menu-icon {
     display: none;
   }
