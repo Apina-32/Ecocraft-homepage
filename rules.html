@@ -26,40 +26,21 @@
           <li><a href="about.html">About</a></li>
         </ul>
       </header>
-      <div class="cardGrid">
-        <div class="container">
-          <div class="card">
-            <div class="content">
-              <h3>Sääntö 1</h3>
-              <p>Grieffaaminen on kielettyä kaikissa eri muodoissa</p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="card">
-            <div class="content">
-              <h3>Sääntö 2</h3>
-              <p>Toisten pelaajien kiusaaminen on kiellettyä</p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="card">
-            <div class="content">
-              <h3>Sääntö 3</h3>
-              <p>Serverillä minkäänlainen huijaaminen on ehdottomasti kiellettyä ja rankaistavaa.</p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="card">
-            <div class="content">
-              <h3>Sääntö 4</h3>
-              <p>Maalaisjärjen käyttäminen on hyvin suositeltavaa</p>
-            </div>
+      <div id="card-container"></div>
+    </div>
+
+    <template id="card-template">
+      <div class="container">
+        <div class="card">
+          <div class="content">
+            <h3 class="title"></h3>
+            <p class="text-content"></p>
           </div>
         </div>
       </div>
-    </div>
+    </template>
+
+    <script src="js/utils.js"></script>
+    <script src="js/rules.js"></script>
   </body>
 </html>
