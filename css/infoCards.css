@@ -52,6 +52,10 @@
   align-content: center;
 }
 
+.rules-container{
+  flex-direction: column;
+}
+
 .container .card{
   position: relative;
   width: 20em;
