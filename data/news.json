@@ -1,13 +1,17 @@
 {
-  "Servulle on lisätty ItemAdderi": {
+  "Palvelimelle on lisätty TNT Run": {
+    "text": "TNT Runia pääsee pelaamaan komennolla /tntrun autojoin",
+    "date": "16.01.2022"
+  },
+  "Palvelimelle on lisätty ItemAdderi": {
     "text": "Käyttämällä komentoa /ia löytyy lisää tietoa uusista palikoista",
-    "date": "PVM dd.mm.yyyy"
+    "date": "14.01.2022"
   },
-  "Servu on päivitetty 1.18.1": {
+  "Palvelin on päivitetty 1.18.1": {
     "text": "",
-    "date": "PVM dd.mm.yyyy"
+    "date": "16.12.2021"
   },
-  "Servu on päivitetty 1.17": {
+  "Palvelin on päivitetty 1.17": {
     "text": "",
     "date": "PVM dd.mm.yyyy"
   }
