@@ -9,6 +9,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size:  cover;
+  padding-bottom: 10vh;
 }
 
 a {
@@ -69,14 +70,6 @@ a {
 
 .logo img{
   width: 30vw;
-}
-
-/*Section*/
-section{
-  display: flex;
-  height: 35vh;
-  text-align: center;
-  align-items: center;
 }
 
 .playerCount{

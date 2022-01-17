@@ -46,6 +46,11 @@
     zoom: 1;
   }
 
+  .map-container {
+    height: 90vh;
+    padding-bottom: 15vh;
+  }
+
   .header{
     position: absolute;
   }
@@ -78,6 +83,10 @@
 
   section{
     height: 88vh;
+  }
+
+  .map-container{
+    height: 90vh;
   }
 
   .header .menu-icon {
