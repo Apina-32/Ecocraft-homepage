@@ -73,19 +73,6 @@ const deleteResourse = async url => {
 };
 
 /**
- * Generate random unique id to use as id value on notifications
- * or other HTML elements (remember that IDs must be unique within
- * a document).
- *
- * @returns {string} New id.
- */
-const generateId = () => {
-    // Shamelessly borrowed from a Gist. See:
-    // https://gist.github.com/gordonbrander/2230317
-    return ('_' + Math.random().toString(36).substr(2, 9));
-};
-
-/**
  * Create a notification message that disappears after five seconds.
  *
  * Appends a new paragraph inside the container element and gives it

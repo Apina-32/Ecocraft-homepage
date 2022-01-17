@@ -8,7 +8,7 @@ if ('content' in document.createElement('template')) {
             const content = clone.querySelector('.text-content');
             clone.querySelector('.title').textContent = rule;
             rules.response[rule].forEach(val=>{
-                content.textContent += val;
+                content.textContent += ` ${val}`;
             })
 
             container.appendChild(clone);
