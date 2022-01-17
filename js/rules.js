@@ -5,14 +5,12 @@ if ('content' in document.createElement('template')) {
     getJSON("/data/rules.json").then(rules => {
         Object.keys(rules.response).forEach(rule => {
             const clone = template.content.cloneNode(true);
-            const content = clone.querySelector('.text-content');
             clone.querySelector('.title').textContent = rule;
             rules.response[rule].forEach(val=>{
-                content.textContent += ` ${val}`;
+                clone.querySelector('.text-content').textContent += ` ${val}`;
             })
 
             container.appendChild(clone);
         });
     });
-
 }
