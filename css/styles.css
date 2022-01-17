@@ -1,3 +1,4 @@
+/*noinspection CssUnknownTarget*/
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap');
 
 body {
@@ -76,17 +77,10 @@ section{
 .playerCount{
   color: #dad3d4;
   align-self: end;
-  margin: 0.4em;
-  margin-left: -7em;
+  margin: 0.4em 0.4em 0.4em -7em;
 }
 
 /* Hahmojen kuvat */
-.charactersImg{
-  width: 150px;
-  height: 150px;
-  border-radius: 100%;
-
-}
 
 
 /* menu */
@@ -159,7 +153,3 @@ section{
   transform: rotate(45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
-  top: 0;
-}

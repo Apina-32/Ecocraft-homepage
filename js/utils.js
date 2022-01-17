@@ -1,3 +1,5 @@
+// noinspection SpellCheckingInspection
+
 /**
  * Asynchronously fetch JSON from the given url. (GET)
  *
