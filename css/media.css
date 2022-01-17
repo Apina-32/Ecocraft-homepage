@@ -41,6 +41,16 @@
   }
 }
 */
+@media (orientation: landscape) and (pointer: coarse){
+  body{
+    zoom: 1;
+  }
+
+  .header{
+    position: absolute;
+  }
+}
+
 
 /* Maximum resolution */
 @media (min-width:50rem) and (pointer: fine){
@@ -72,5 +82,11 @@
 
   .header .menu-icon {
     display: none;
+  }
+}
+
+@media (pointer: fine){
+  body{
+    zoom: 1;
   }
 }

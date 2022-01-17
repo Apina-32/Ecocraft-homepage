@@ -1,7 +1,7 @@
 {
-  "Sääntö 1": ["Grieffaaminen on kielettyä kaikissa eri muodoissa"],
-  "Sääntö 2": ["Toisten pelaajien kiusaaminen on kiellettyä"],
-  "Sääntö 3": ["Serverillä minkäänlainen huijaaminen on ehdottomasti kiellettyä ja rangaistavaa.",
+  "Griffaus": ["Grieffaaminen on kielettyä kaikissa eri muodoissa"],
+  "Kiusaaminen": ["Toisten pelaajien kiusaaminen on kiellettyä"],
+  "Huijaaminen": ["Serverillä minkäänlainen huijaaminen on ehdottomasti kiellettyä ja rangaistavaa.",
                 "Mukaanlukien x-ray tekstuurien käyttö."],
-  "Sääntö 4": ["Maalaisjärjen käyttäminen on hyvin suositeltavaa"]
+  "Maalaisjärki": ["Maalaisjärjen käyttäminen on hyvin suositeltavaa"]
 }
