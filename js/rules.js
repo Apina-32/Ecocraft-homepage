@@ -6,8 +6,12 @@ if ('content' in document.createElement('template')) {
         Object.keys(rules.response).forEach(rule => {
             const clone = template.content.cloneNode(true);
             clone.querySelector('.title').textContent = rule;
+            let elem = clone.querySelector('.text-content').cloneNode();
+            clone.querySelector('.text-content').remove();
             rules.response[rule].forEach(val=>{
-                clone.querySelector('.text-content').textContent += ` ${val}`;
+                elem.textContent = ` ${val}`;
+                clone.querySelector('.content').appendChild(elem);
+                elem = clone.querySelector('.text-content').cloneNode();
             })
 
             container.appendChild(clone);
