@@ -58,7 +58,7 @@
 
 
 /* Maximum resolution */
-@media (min-width:50rem) and (pointer: fine){
+@media (min-width:53rem) and (pointer: fine){
   .header .menu {
     clear: none;
     display: inline-flex;
@@ -97,5 +97,9 @@
 @media (pointer: fine){
   body{
     zoom: 1;
+  }
+
+  .map-container{
+    height: 85vh;
   }
 }

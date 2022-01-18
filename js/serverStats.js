@@ -20,7 +20,6 @@ const updateAddServerStatus = () => {
                     playerList.append(newUser);
                 });
             }
-            serverStatus.setAttribute("last-updated", window.tim)
         }
         catch (e){
             document.querySelector("#playerCount").textContent = '-';
