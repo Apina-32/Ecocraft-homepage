@@ -14,7 +14,13 @@
       <a href="index.html">
         <img src="data/logo.png" alt="Ecocraft logo">
       </a>
-      <h6 class="playerCount"><span data-playercounter-ip="ecocraft.fi">0</span> players online.</h6>
+      <div class="serverStatus">
+        <h6><span id="playerCount">0</span> players online.</h6>
+        <div class="playerListContainer">
+          <div>Players currently online</div>
+          <div id="playerList"></div>
+        </div>
+      </div>
     </div>
 
     <input class="menu-btn" type="checkbox" id="menu-btn" />
@@ -33,5 +39,7 @@
             src="https://map.a32.fi/">
           </iframe>
         </div>
+  <script src="js/utils.js"></script>
+  <script src="js/serverStats.js"></script>
   </body>
 </html>
