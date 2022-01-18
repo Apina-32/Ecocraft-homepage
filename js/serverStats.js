@@ -5,7 +5,7 @@ getJSON("https://api.minetools.eu/query/play.ecocraft.fi/25565").then(response=>
         if(response.response.Players > 0){
             response.response.Playerlist.forEach(user => {
                 const newUser = document.createElement('p')
-                newUser.textContent = textContent = user;
+                newUser.textContent = user;
                 document.querySelector('#playerList').append(newUser);
             });
         }
