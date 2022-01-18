@@ -1,11 +1,11 @@
 const serverStatus = document.querySelector('.serverStatus');
 
 const updateAddServerStatus = () => {
+    // Get initial player count
+    document.querySelector("#playerCount").textContent = localStorage.getItem('playerCount');
+
     // Timeout event listener to reduce the amount of api calls.
     serverStatus.removeEventListener('mouseenter', updateAddServerStatus);
-    window.setTimeout(()=>{
-        serverStatus.addEventListener('mouseenter', updateAddServerStatus);
-    }, 10000);
 
     getJSON("https://api.minetools.eu/query/play.ecocraft.fi/25565").then(response=>{
         try{
@@ -20,8 +20,13 @@ const updateAddServerStatus = () => {
                     playerList.append(newUser);
                 });
             }
+            localStorage.setItem('playerCount', response.response.Players);
+            window.setTimeout(()=>{
+                serverStatus.addEventListener('mouseenter', updateAddServerStatus);
+            }, 10000);
         }
         catch (e){
+            console.error("Error getting server status:", e);
             document.querySelector("#playerCount").textContent = '-';
         }
     })
