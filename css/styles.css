@@ -22,7 +22,7 @@ a {
   display: inline-flex;
   background-color: rgb(33,33,33);
   box-shadow: 0 5px 5px 2px rgba(0,0,0,0.2);
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 5em;
   justify-content: space-between;
@@ -74,7 +74,7 @@ a {
 
 .serverStatus{
   align-self: end;
-  margin: 0 0 0 -7.5em;
+  margin: 0 0 1.6em -7.5em;
   z-index: 8;
   font-size: 15px;
   width: auto;
@@ -84,10 +84,21 @@ a {
   color: #dad3d4;
   margin: unset;
   z-index: inherit;
+  position: absolute;
   font-size: 15px;
+  cursor: context-menu;
 }
 
 .serverStatus h6:hover + .playerListContainer{
+  display: flex;
+  transition-delay: 5s;
+}
+
+.serverStatus h6:hover{
+  padding-bottom: 1em;
+}
+
+.playerListContainer:hover{
   display: flex;
 }
 
@@ -95,7 +106,7 @@ a {
   display: none;
   flex-direction: column;
   position: fixed;
-  margin-top: 0.5em;
+  margin-top: 2.3em;
   width: fit-content;
   padding: 1em;
   background-color: rgb(33,33,33);
@@ -116,7 +127,7 @@ a {
 .header .menu {
   clear: both;
   max-height: 0;
-  margin-top: 75px;
+  margin-top: 80px;
   width: 100%;
   position: absolute;
   transition: max-height .2s ease-out;
