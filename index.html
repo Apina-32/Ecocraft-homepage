@@ -34,16 +34,63 @@
         </ul>
       </header>
         <div class="container">
-          <div class="card" id="home">
-            <div class="content">
-              <h2>Ecocraft</h2>
-              <h3>Tähän tulee vaikka joku karuselli jossa on tietoa ecocraftistä ja mitä siihen tulee tai jtn.</h3>
-              <p>Tässä on etusivun laatikko johon tulee tekstiä ehkä tai kuva</p>
+          <div class="card" id="carousel">
+            <div class="carousel">
+              <div class="carousel-inner">
+                  <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                    <div class="carousel-item">
+                      <div class="card-carousel">
+                        <div class="content">
+                          <h3 class="title"></h3>
+                          <p class="text-content"></p>
+                          <p class="date"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                      <div class="card-carousel">
+                        <div class="content">
+                          <h3 class="title"></h3>
+                          <p class="text-content"></p>
+                          <p class="date"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                      <div class="card-carousel">
+                        <div class="content">
+                          <h3 class="title"></h3>
+                          <p class="text-content"></p>
+                          <p class="date"></p>
+                        </div>
+                      </div>
+                    </div>
+                      <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+                      <label for="carousel-2" class="carousel-control next control-1">›</label>
+                      <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                      <label for="carousel-3" class="carousel-control next control-2">›</label>
+                      <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+                      <label for="carousel-1" class="carousel-control next control-3">›</label>
+                    <ol class="carousel-indicators">
+                      <li>
+                        <label for="carousel-1" class="carousel-bullet">•</label>
+                      </li>
+                      <li>
+                        <label for="carousel-2" class="carousel-bullet">•</label>
+                      </li>
+                      <li>
+                        <label for="carousel-3" class="carousel-bullet">•</label>
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-    </div>
     <script src="js/utils.js"></script>
     <script src="js/serverStats.js"></script>
+    <script src="js/news.js"></script>
   </body>
 </html>
