@@ -8,10 +8,8 @@
   position: relative;
   top: 5rem;
   display: flex;
-  justify-content: center;
-  align-content: center;
-  align-self: center;
   z-index: 1;
+  height: fit-content;
 }
 
 .container #home{
@@ -52,10 +50,6 @@
   text-overflow: clip;
 }
 
-.rules-container{
-  flex-direction: column;
-}
-
 .command{
   width: 30em!important;
   height: fit-content!important;
@@ -65,6 +59,9 @@
   height: fit-content;
 }
 
+.commands-container{
+  align-items: start;
+}
 .container .card{
   position: relative;
   width: 20em;
