@@ -56,6 +56,11 @@
   }
 }
 
+@media (orientation: portrait) and (pointer: coarse){
+  #carousel{
+    height: 25em;
+  }
+}
 
 /* Maximum resolution */
 @media (min-width:53rem) and (pointer: fine){

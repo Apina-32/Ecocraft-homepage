@@ -9,9 +9,8 @@
   top: 5rem;
   display: flex;
   justify-content: center;
-  align-items: center;
-  max-width: 100%;
-  flex-wrap: wrap;
+  align-content: center;
+  align-self: center;
   z-index: 1;
 }
 

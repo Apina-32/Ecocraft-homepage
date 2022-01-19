@@ -8,89 +8,54 @@
     <link rel="stylesheet" href="css/infoCards.css">
   </head>
   <body>
-    <div class="bg_home">
-      <header class="header">
-        <div class="logo">
-          <a href="index.html">
-            <img src="data/logo.png" alt="Ecocraft logo">
-          </a>
-          <div class="serverStatus">
-            <h6><span id="playerCount"></span> players online.</h6>
-            <div class="playerListContainer">
-              <div>Players currently online</div>
-              <div id="playerList"></div>
-            </div>
+    <header class="header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="data/logo.png" alt="Ecocraft logo">
+        </a>
+        <div class="serverStatus">
+          <h6><span id="playerCount"></span> players online.</h6>
+          <div class="playerListContainer">
+            <div>Players currently online</div>
+            <div id="playerList"></div>
           </div>
         </div>
+      </div>
 
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-        <ul class="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="map.html">Map</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="rules.html">Rules</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </header>
-        <div class="container">
-          <div class="card" id="carousel">
-            <div class="carousel">
-              <div class="carousel-inner">
-                  <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-                    <div class="carousel-item">
-                      <div class="card-carousel">
-                        <div class="content">
-                          <h3 class="title"></h3>
-                          <p class="text-content"></p>
-                          <p class="date"></p>
-                        </div>
-                      </div>
-                    </div>
-                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-                    <div class="carousel-item">
-                      <div class="card-carousel">
-                        <div class="content">
-                          <h3 class="title"></h3>
-                          <p class="text-content"></p>
-                          <p class="date"></p>
-                        </div>
-                      </div>
-                    </div>
-                    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-                    <div class="carousel-item">
-                      <div class="card-carousel">
-                        <div class="content">
-                          <h3 class="title"></h3>
-                          <p class="text-content"></p>
-                          <p class="date"></p>
-                        </div>
-                      </div>
-                    </div>
-                      <label for="carousel-3" class="carousel-control prev control-1">‹</label>
-                      <label for="carousel-2" class="carousel-control next control-1">›</label>
-                      <label for="carousel-1" class="carousel-control prev control-2">‹</label>
-                      <label for="carousel-3" class="carousel-control next control-2">›</label>
-                      <label for="carousel-2" class="carousel-control prev control-3">‹</label>
-                      <label for="carousel-1" class="carousel-control next control-3">›</label>
-                    <ol class="carousel-indicators">
-                      <li>
-                        <label for="carousel-1" class="carousel-bullet">•</label>
-                      </li>
-                      <li>
-                        <label for="carousel-2" class="carousel-bullet">•</label>
-                      </li>
-                      <li>
-                        <label for="carousel-3" class="carousel-bullet">•</label>
-                      </li>
-                    </ol>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="map.html">Map</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="rules.html">Rules</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </header>
+      <div class="container">
+        <div class="card" id="carousel">
+          <div class="carousel-items"></div>
+          <label class="carousel-control prev ">‹</label>
+          <label class="carousel-control next ">›</label>
+          <ol class="carousel-indicators"></ol>
+        </div>
+      </div>
+
+    <template id="carousel-item">
+      <div class="carousel-content">
+        <h3 class="title"></h3>
+        <p class="text-content"></p>
+        <p class="date"></p>
+      </div>
+    </template>
+    <template id="carousel-bullet">
+      <li>
+        <label class="carousel-bullet">•</label>
+      </li>
+    </template>
+
     <script src="js/utils.js"></script>
     <script src="js/serverStats.js"></script>
-    <script src="js/news.js"></script>
+    <script src="js/home.js"></script>
   </body>
 </html>
