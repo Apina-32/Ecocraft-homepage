@@ -62,6 +62,12 @@
   }
 }
 
+@media (pointer: coarse) {
+  .carousel-content img{
+    height: unset;
+  }
+}
+
 /* On mobile in portrait mode */
 @media (orientation: portrait) and (pointer: coarse){
   #carousel{
