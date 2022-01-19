@@ -41,6 +41,8 @@
   }
 }
 */
+
+/* On mobile in landscape mode */
 @media (orientation: landscape) and (pointer: coarse){
   body{
     zoom: 1;
@@ -60,13 +62,14 @@
   }
 }
 
+/* On mobile in portrait mode */
 @media (orientation: portrait) and (pointer: coarse){
   #carousel{
     height: 40em;
   }
 }
 
-/* Maximum resolution */
+/* On desktop with narrow browser window */
 @media (min-width:53rem) and (pointer: fine){
   .header .menu {
     clear: none;
@@ -103,6 +106,7 @@
   }
 }
 
+/* On desktop with wide browser window */
 @media (pointer: fine){
   body{
     zoom: 1;
