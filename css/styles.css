@@ -10,6 +10,7 @@ body {
   background-attachment: fixed;
   background-size:  cover;
   padding-bottom: 10vh;
+  background-image: url('../images/background.jpg');
 }
 
 a {
