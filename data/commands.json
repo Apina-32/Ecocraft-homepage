@@ -10,11 +10,11 @@
   },
   "Peruskomennot": {
     "/spawn": "Pelaaja pääsee takaisin spawni alueelle.",
-    "/tpa": "Voit pyytää lupaa teleportaita toiseen pelajaan | esim. /tpa mallimeikäläinen",
+    "/tpa": "Voit pyytää lupaa teleportata toiseen pelajaan | esim. /tpa mallimeikäläinen",
     "/sethome": "Voit asettaa itsellesi kodin mihin voit sitten teleportata käyttämällä seuraavaa komentoa | esim. /sethome esimerkkiKoti",
     "/home": "Pelaaja pääsee takaisin asetettuun kotiinsa | esim. /home esimerkkiKoti",
     "/msg": "Pelaaja voi lähettää viestin toiselle pelaajalle | esim. /msg mallimeikäläinen Moi miten menee?",
-    "/e": "Voit lähettää kaikkille viestin joka sisältää emoji merkkejä | esim. /e Mitenkäs kaikilla menee? :smile:",
+    "/e": "Voit lähettää kaikille viestin joka sisältää emoji merkkejä | esim. /e Mitenkäs kaikilla menee? :smile:",
     "/back": "Pelaaja voi palata edelliseen paikkaan mistä on teleportannut.",
     "/buyclaim": "Voit ostaa lisää aluetta mitä voit käyttää paikkojen suojaamiseen ja omistamiseen | esim. /buyclaim 100",
     "/trust": "Voit antaa toiselle pelaajalle oikeuden rakentaa ja purkaa alueella olevia palikkoja kuin myös käyttää yhteisiä laatikoita | esim. /trust mallimeikäläinen",
