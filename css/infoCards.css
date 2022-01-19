@@ -79,6 +79,7 @@
 
 .commands-container{
   align-items: start;
+  justify-content: center!important;
 }
 .container .card{
   position: relative;
