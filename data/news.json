@@ -1,11 +1,13 @@
 {
   "Palvelimelle on lisätty TNT Run": {
     "text": "TNT Runia pääsee pelaamaan komennolla /tntrun autojoin",
-    "date": "16.01.2022"
+    "date": "16.01.2022",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi.ytimg.com%2Fvi%2F1C-dGXKhVCU%2Fmaxresdefault.jpg&f=1&nofb=1"
   },
   "Palvelimelle on lisätty ItemAdderi": {
     "text": "Käyttämällä komentoa /ia löytyy lisää tietoa uusista palikoista",
-    "date": "14.01.2022"
+    "date": "14.01.2022",
+    "image": "images/itemsAdder.png"
   },
   "Palvelin on päivitetty 1.18.1": {
     "text": "",

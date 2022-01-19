@@ -46,6 +46,10 @@
     zoom: 1;
   }
 
+  .carousel-content img{
+    display: none;
+  }
+
   .map-container {
     height: 90vh;
     padding-bottom: 15vh;
@@ -58,7 +62,7 @@
 
 @media (orientation: portrait) and (pointer: coarse){
   #carousel{
-    height: 25em;
+    height: 40em;
   }
 }
 

@@ -11,7 +11,12 @@ if ('content' in document.createElement('template')) {
             const newsContent = news.response[item];
             itemClone.querySelector(".text-content").textContent = newsContent.text;
             itemClone.querySelector(".date").textContent = newsContent.date;
-            container.appendChild(itemClone)
+            if(newsContent.image !== undefined){
+                let img = document.createElement('img');
+                img.src = newsContent.image;
+                itemClone.children[0].children[0].before(img);
+            }
+            container.appendChild(itemClone);
 
             // bullets
             document.querySelector(".carousel-indicators").appendChild(bulletClone);
