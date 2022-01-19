@@ -9,7 +9,7 @@
     "/iaemoji": "Näytää kaikki saatavilla olevat emojit mitä voit käyttää tekstien ja kylttien parantamiseen."
   },
   "Peruskomennot": {
-    "/spanw": "Pelaaja pääsee takaisin spawni alueelle.",
+    "/spawn": "Pelaaja pääsee takaisin spawni alueelle.",
     "/tpa": "Voit pyytää lupaa teleportaita toiseen pelajaan | esim. /tpa mallimeikäläinen",
     "/sethome": "Voit asettaa itsellesi kodin mihin voit sitten teleportaita käyttämällä seuravaa komentoa | esim. /sethome esimerkkiKoti",
     "/home": "Pelaaja pääsee takaisin asetettuun kotiinsa | esim. /home esimerkkiKoti",
