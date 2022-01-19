@@ -165,6 +165,8 @@ a {
     align-self: center;
     z-index: 1;
     flex-direction: column;
+    width: inherit;
+    height: inherit;
 }
 
 .carousel-control {
@@ -184,6 +186,14 @@ a {
     width: 40px;
     z-index: 10;
     user-select: none;
+}
+
+.carousel-content img{
+    max-width: 90%;
+    max-height: 50%;
+    align-self: center;
+    position: sticky;
+    border-radius: 15px;
 }
 
 .carousel-control.prev {
