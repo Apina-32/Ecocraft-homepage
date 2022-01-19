@@ -63,8 +63,14 @@
   padding-inline-start: unset;
 }
 
+.command-example{
+  margin-block-start: -2em !important;
+  color: #f48f02 !important;
+}
+
 .commands li{
   font-weight: bolder;
+  font-size: large;
 }
 
 .commands li p{

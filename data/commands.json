@@ -1,24 +1,65 @@
 {
   "TNT Run": {
-    "/tntrun autojoin": "Liity TNT Run areenalle.",
-    "/tntrun leave": "Poistu areenalta."
+    "/tntrun autojoin": {
+      "description": "Liity TNT Run areenalle."
+    },
+    "/tntrun leave": {
+      "description": "Poistu areenalta."
+    }
   },
   "ItemAdder": {
-    "/ia": "Näyttää kaikki item adderin tuomat uudet palikat ja esineet.",
-    "/iarecipe": "Näyttää reseptit erilaisten esineiden ja tavaroiden tekemiseen | esim. /iarecipe itemsadder:amethyst_axe",
-    "/iaemoji": "Näyttää kaikki saatavilla olevat emojit mitä voit käyttää tekstien ja kylttien parantamiseen."
+    "/ia": {
+      "description": "Näyttää kaikki item adderin tuomat uudet palikat ja esineet."
+    },
+    "/iarecipe": {
+      "description": "Näyttää reseptit erilaisten esineiden ja tavaroiden tekemiseen",
+      "example": "/iarecipe itemsadder:amethyst_axe"
+    },
+    "/iaemoji": {
+      "description": "Näyttää kaikki saatavilla olevat emojit mitä voit käyttää tekstien ja kylttien parantamiseen."
+    }
   },
   "Peruskomennot": {
-    "/spawn": "Pelaaja pääsee takaisin spawni alueelle.",
-    "/tpa": "Voit pyytää lupaa teleportata toiseen pelajaan | esim. /tpa mallimeikäläinen",
-    "/sethome": "Voit asettaa itsellesi kodin mihin voit sitten teleportata käyttämällä seuraavaa komentoa | esim. /sethome esimerkkiKoti",
-    "/home": "Pelaaja pääsee takaisin asetettuun kotiinsa | esim. /home esimerkkiKoti",
-    "/msg": "Pelaaja voi lähettää viestin toiselle pelaajalle | esim. /msg mallimeikäläinen Moi miten menee?",
-    "/e": "Voit lähettää kaikille viestin joka sisältää emoji merkkejä | esim. /e Mitenkäs kaikilla menee? :smile:",
-    "/back": "Pelaaja voi palata edelliseen paikkaan mistä on teleportannut.",
-    "/buyclaim": "Voit ostaa lisää aluetta mitä voit käyttää paikkojen suojaamiseen ja omistamiseen | esim. /buyclaim 100",
-    "/trust": "Voit antaa toiselle pelaajalle oikeuden rakentaa ja purkaa alueella olevia palikoita, sekä käyttää yhteisiä laatikoita esim. /trust mallimeikäläinen",
-    "/abandonclaim": "Voit poistaa oman varatun maa-alueen, kun olet sen sisällä",
-    "/pay": "Voit maksaa toiselle pelaajalle / antaa rahaa | esim. /pay mallimeikäläinen 100"
+    "/spawn": {
+      "description": "Pelaaja pääsee takaisin spawni alueelle."
+    },
+    "/tpa": {
+      "description": "Voit pyytää lupaa teleportata toiseen pelajaan",
+      "example": "/tpa mallimeikäläinen"
+    },
+    "/sethome": {
+      "description": "Voit asettaa itsellesi kodin mihin voit sitten teleportata käyttämällä seuraavaa komentoa",
+      "example": "/sethome esimerkkiKoti"
+    },
+    "/home": {
+      "description": "Pelaaja pääsee takaisin asetettuun kotiinsa",
+      "example": "/home esimerkkiKoti"
+    },
+    "/msg": {
+      "description": "Pelaaja voi lähettää viestin toiselle pelaajalle",
+      "example": "/msg mallimeikäläinen Moi miten menee?"
+    },
+    "/e": {
+      "description": "Voit lähettää kaikille viestin joka sisältää emoji merkkejä",
+      "example": "/e Mitenkäs kaikilla menee? :smile:"
+    },
+    "/back": {
+      "description": "Pelaaja voi palata edelliseen paikkaan mistä on teleportannut."
+    },
+    "/buyclaim": {
+      "description": "Voit ostaa lisää aluetta mitä voit käyttää paikkojen suojaamiseen ja omistamiseen",
+      "example": "/buyclaim 100"
+    },
+    "/trust": {
+      "description": "Voit antaa toiselle pelaajalle oikeuden rakentaa ja purkaa alueella olevia palikoita, sekä käyttää yhteisiä laatikoita",
+      "example": "/trust mallimeikäläinen"
+    },
+    "/abandonclaim": {
+      "description": "Voit poistaa oman varatun maa-alueen, kun olet sen sisällä"
+    },
+    "/pay": {
+      "description": "Voit maksaa toiselle pelaajalle / antaa rahaa",
+      "example": "/pay mallimeikäläinen 100"
+    }
   }
 }

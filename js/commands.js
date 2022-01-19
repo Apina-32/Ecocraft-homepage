@@ -11,7 +11,12 @@ if ('content' in document.createElement('template')) {
                 const listElem = document.createElement('li');
                 listElem.textContent = command;
                 listElem.appendChild(document.createElement('p'));
-                listElem.children[0].textContent = commands[command];
+                listElem.children[0].textContent = commands[command].description;
+                if(commands[command].example !== "" && commands[command].example !== undefined){
+                    listElem.appendChild(document.createElement('p'));
+                    listElem.children[1].classList.add('command-example');
+                    listElem.children[1].textContent = commands[command].example;
+                }
                 clone.querySelector(".commands").appendChild(listElem);
             });
             container.appendChild(clone);
