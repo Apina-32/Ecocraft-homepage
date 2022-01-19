@@ -56,6 +56,15 @@
   flex-direction: column;
 }
 
+.command{
+  width: 30em!important;
+  height: fit-content!important;
+}
+
+.commands{
+  height: fit-content;
+}
+
 .container .card{
   position: relative;
   width: 20em;
