@@ -10,6 +10,7 @@
   display: flex;
   z-index: 1;
   height: fit-content;
+  justify-content: center;
 }
 
 .container #home{
@@ -57,6 +58,23 @@
 
 .commands{
   height: fit-content;
+  color: white;
+  list-style-type: none;
+  padding-inline-start: unset;
+}
+
+.commands li{
+  font-weight: bolder;
+}
+
+.commands li p{
+  margin-block-start: 0.2em;
+  margin-block-end: 2em;
+  color: #c7c7c7
+}
+
+.command .content{
+  padding-top: 5% !important;
 }
 
 .commands-container{
@@ -75,11 +93,10 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  backdrop-filter: blur(5px);
 }
 
 .container .card .content{
-  padding: 20px;
+  padding: 10%;
   text-align: center;
   transition: 0.5s;
   height: 90%;

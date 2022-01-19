@@ -1,4 +1,13 @@
 {
+  "TNT Run": {
+    "/tntrun autojoin": "Liity TNT Run areenalle.",
+    "/tntrun leave": "Poistu areenalta."
+  },
+  "ItemAdder": {
+    "/ia": "Näyttää kaikki item adderin tuomat uudet palikat ja esineet.",
+    "/iarecipe": "Näyttää reseptit erinlaisten esineiden ja tavaroiden tekemiseen | esim. /iarecipe itemsadder:amethyst_axe",
+    "/iaemoji": "Näytää kaikki saatavilla olevat emojit mitä voit käyttää tekstien ja kylttien parantamiseen."
+  },
   "Peruskomennot": {
     "/spanw": "Pelaaja pääsee takaisin spawni alueelle.",
     "/tpa": "Voit pyytää lupaa teleportaita toiseen pelajaan | esim. /tpa mallimeikäläinen",
@@ -11,14 +20,5 @@
     "/trust": "voit antaa toiselle pelaajalle oikeuden rakentaa ja purkaa aluella olevia palikkoja kuin myös käyttää yhteisiä laatikoita | esim. /trust mallimeikäläinen",
     "/abandonclaim": "voit poistaa oman varatun maa alueen",
     "/pay": "Voit maksaa toiselle pelaajalle / antaa rahaa | esim. /pay mallimeikäläinen 100"
-  },
-  "TNT Run": {
-    "/tntrun autojoin": "Liity TNT Run areenalle.",
-    "/tntrun leave": "Poistu areenalta."
-  },
-  "ItemAdder": {
-    "/ia": "Näyttää kaikki item adderin tuomat uudet palikat ja esineet.",
-    "/iarecipe": "Näyttää reseptit erinlaisten esineiden ja tavaroiden tekemiseen | esim. /iarecipe itemsadder:amethyst_axe",
-    "/iaemoji": "Näytää kaikki saatavilla olevat emojit mitä voit käyttää tekstien ja kylttien parantamiseen."
   }
 }

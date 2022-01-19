@@ -67,6 +67,10 @@
   #carousel{
     height: 40em;
   }
+
+  .commands-container{
+    justify-content: space-between!important;
+  }
 }
 
 /* On desktop with narrow browser window */
