@@ -4,6 +4,10 @@
   justify-content: space-around;
 }
 
+.rules-container{
+  justify-content: center !important;
+}
+
 .container{
   position: relative;
   top: 5rem;
