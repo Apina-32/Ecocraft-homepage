@@ -193,7 +193,7 @@ a {
 .carousel-content img{
     max-width: 90%;
     max-height: 340px;
-    height: 50%;
+    min-height: 50%;
     align-self: center;
     position: sticky;
     border-radius: 15px;

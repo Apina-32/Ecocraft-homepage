@@ -65,6 +65,7 @@
 @media (pointer: coarse) {
   .carousel-content img{
     height: unset;
+    min-height: unset;
   }
 }
 
