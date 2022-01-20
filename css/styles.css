@@ -121,6 +121,26 @@ a {
   /*color: #dad3d4*/
 }
 
+#footer {
+    display: flex;
+    align-content: end;
+    justify-content: end;
+    position:fixed;
+    left:0;
+    bottom:0;
+    height:30px;
+    width:100%;
+    margin-bottom: 20px;
+}
+
+#footer iframe{
+    width: 240px;
+    margin-right: 20px;
+    height: 28px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
 /* Carousel */
 
 #carousel{

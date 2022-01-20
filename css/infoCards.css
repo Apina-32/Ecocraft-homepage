@@ -8,17 +8,6 @@
   justify-content: center !important;
 }
 
-#footer {
-  display: flex;
-  align-content: end;
-  justify-content: end;
-  position:fixed;
-  left:0;
-  bottom:0;
-  height:30px;
-  width:100%;
-}
-
 .container{
   position: relative;
   top: 5rem;
