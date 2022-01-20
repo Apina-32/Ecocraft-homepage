@@ -67,6 +67,10 @@
     height: unset;
     min-height: unset;
   }
+
+  #footer{
+    display: none;
+  }
 }
 
 /* On mobile in portrait mode */
