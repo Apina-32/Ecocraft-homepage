@@ -12,8 +12,12 @@ const updateAddServerStatus = () => {
     getJSON("https://api.minetools.eu/query/play.ecocraft.fi/25565").then(response=>{
         try{
             console.log(response.response);
-            if(response.response.Players !== undefined)
+            if(response.response.Players !== undefined) {
                 document.querySelector("#playerCount").textContent = response.response.Players;
+                if(document.querySelector("#playerCount").parentElement.childNodes[1].textContent === "Server offline"){
+                    document.querySelector("#playerCount").parentElement.childNodes[1].textContent = " players online."
+                }
+            }
             const playerList = document.querySelector('#playerList');
             removeChildren(playerList);
             if(response.response.Players > 0){
