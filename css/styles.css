@@ -75,7 +75,8 @@ a {
 
 .serverStatus{
   align-self: end;
-  margin: 0 0 1.6em -7.5em;
+    position: static;
+  margin: 3.8em 0 1.6em -7.5em;
   z-index: 8;
   font-size: 15px;
   width: auto;
