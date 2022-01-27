@@ -41,13 +41,8 @@ const goToIndex = (index) => {
 };
 
 const getIndex = () => {
-    let items = document.querySelectorAll('.carousel-content');
-    for(let i = 0; i < items.length; i++){
-        if(items[i].style.display === 'flex') {
-            return i;
-        }
-    }
-};
+    return [...document.querySelectorAll('.carousel-content')].findIndex(item => item.style.display === 'flex');
+}
 
 const selectBullet = (index)=>{
     let items = document.querySelectorAll('.carousel-bullet');
